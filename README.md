@@ -49,7 +49,6 @@ This project is a compact desktop dashboard built with ESP8266 (Wemos D1 Mini) a
     * **Erişimi:** "Anyone (Herkes)" olarak ayarlayın ve dağıtın.
     * Size verilen URL'i kopyalayın.
 3.  **Ayarları Yapılandırın:**
-    * `src` klasöründeki `secrets_example.h` dosyasının adını `secrets.h` olarak değiştirin.
     * Dosyanın içine WiFi bilgilerinizi, OpenWeatherMap API anahtarınızı ve Google Script URL'inizi girin.
 4.  **Yükleme:** Kodu ESP8266 kartınıza yükleyin.
 
@@ -96,7 +95,6 @@ This project is a compact desktop dashboard built with ESP8266 (Wemos D1 Mini) a
     * **Who has access:** Set to "Anyone" (important!).
     * Copy the generated Deployment URL.
 3.  **Configuration:**
-    * Rename `src/secrets_example.h` to `src/secrets.h`.
     * Fill in your WiFi credentials, OpenWeatherMap API Key, and the Google Script URL.
 4.  **Flash:** Upload the code to your ESP8266.
 
@@ -112,4 +110,5 @@ This project is a compact desktop dashboard built with ESP8266 (Wemos D1 Mini) a
 ---
 
 ### 📄 License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
